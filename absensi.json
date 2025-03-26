@@ -1,14 +1,26 @@
 [
     {
-        "nama": "ALDI",
-        "jabatan": "Hyper",
+        "nama": "arkan",
+        "jabatan": "Explaner",
         "tanggal": "2025-03-26",
-        "foto": "foto\/aldi_hyper_2025-03-26.png"
+        "foto": "foto\/aldion_ihza_pratama_explaner_2025-03-26.png"
+    },
+    {
+        "nama": "dian",
+        "jabatan": "Explaner",
+        "tanggal": "2025-03-25",
+        "foto": "foto\/aldion_ihza_pratama_explaner_2025-03-25.png"
+    },
+    {
+        "nama": "aldion ihza pratama",
+        "jabatan": "Gold",
+        "tanggal": "1945-08-17",
+        "foto": "foto\/aldion_ihza_pratama_gold_1945-08-17.png"
     },
     {
         "nama": "arkan",
-        "jabatan": "Hyper",
+        "jabatan": "Explaner",
         "tanggal": "2025-03-26",
-        "foto": "foto\/arkan_hyper_2025-03-26.png"
+        "foto": "foto\/arkan_explaner_2025-03-26.png"
     }
 ]

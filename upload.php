@@ -9,8 +9,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $tanggalFormat = date("Y-m-d", strtotime($tanggal));
 
         $namaFile = strtolower(str_replace(' ', '_', $nama)) . "_"
-                  . strtolower(str_replace(' ', '_', $jabatan)) . "_"
-                  . "$tanggalFormat.png";
+            . strtolower(str_replace(' ', '_', $jabatan)) . "_"
+            . "$tanggalFormat.png";
 
         $imageData = preg_replace('#^data:image/\w+;base64,#i', '', $imageData);
         $imageBinary = base64_decode($imageData);
@@ -56,4 +56,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         window.location.href='index.php';
     </script>";
 }
-?>
